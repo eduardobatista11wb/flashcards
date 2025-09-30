@@ -1,0 +1,66 @@
+{
+  "app": {
+    "title": "Flashcards",
+    "subtitle": "Aprenda Idiomas",
+    "loading": "Carregando...",
+    "wait": "Aguarde..."
+  },
+  "interface": {
+    "language": "Idioma:",
+    "category": "Categoria:",
+    "allCategories": "📚 Todas as Categorias",
+    "words": "palavras",
+    "clickToTranslate": "Clique para ver a tradução",
+    "showWordAgain": "Ver palavra novamente",
+    "previous": "Anterior",
+    "next": "Próxima",
+    "shuffle": "Embaralhar",
+    "shuffled": "Embaralhado!",
+    "translation": "Tradução"
+  },
+  "languages": {
+    "englishToPortuguese": "🇺🇸 Inglês → Português",
+    "indonesianToPortuguese": "🇮🇩 Bahasa Indonesia → Português",
+    "portugueseToEnglish": "🇧🇷 Português → Inglês",
+    "portugueseToIndonesian": "🇧🇷 Português → Bahasa Indonesia"
+  },
+  "categories": {
+    "personalPronouns": "👤 Pronomes Pessoais",
+    "possessivePronouns": "🤝 Pronomes Possessivos",
+    "demonstrativePronouns": "👉 Pronomes Demonstrativos",
+    "numbers": "🔢 Números",
+    "adjectives": "🎨 Adjetivos",
+    "timeAdverbs": "⏰ Advérbios de Tempo",
+    "frequencyAdverbs": "🔄 Advérbios de Frequência",
+    "placeAdverbs": "📍 Advérbios de Lugar",
+    "nouns": "📦 Substantivos",
+    "essentialVerbs": "⚡ Verbos Essenciais",
+    "movementVerbs": "🏃 Verbos de Movimento",
+    "communicationVerbs": "💬 Verbos de Comunicação",
+    "prepositions": "🔗 Preposições",
+    "conjunctions": "🔀 Conjunções",
+    "articles": "📝 Artigos",
+    "family": "👨‍👩‍👧‍👦 Família",
+    "colors": "🌈 Cores",
+    "food": "🍽️ Comida",
+    "weather": "🌤️ Tempo/Clima",
+    "emotions": "😊 Emoções"
+  },
+  "stats": {
+    "totalCards": "Total de Cards",
+    "studied": "Estudados",
+    "categoryProgress": "Progresso da Categoria"
+  },
+  "feedback": {
+    "title": "Suas Anotações",
+    "placeholder": "Faça suas anotações sobre esta palavra..."
+  },
+  "footer": {
+    "developedFor": "Desenvolvido para aprendizado de idiomas",
+    "verbConjugator": "Conjugador de Verbos"
+  },
+  "errors": {
+    "loadingError": "Erro ao carregar os flashcards",
+    "noCards": "Nenhum card encontrado para esta categoria"
+  }
+}

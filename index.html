@@ -1,24 +1,140 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="pt-BR">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Flashcard Application</title>
+    <title>Flashcards - Aprenda Idiomas</title>
     <link rel="stylesheet" href="styles/style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css" rel="stylesheet">
 </head>
 <body>
-    <div class="container">
-        <h1>Flashcard Application</h1>
-        <div id="flashcards-container"></div>
-        <button id="next-button">Próxima</button>
-        <br/>
-        <br/>
-        <br/>
-        <p>Resultado:<span id="result"></span></p>
-        <br/>
-        <br/>
-        <br/>
-        <textarea id="feedback" placeholder="Feedback" style="width: 100%; color: #FFF; background-color: transparent; font-size: 24px; min-height: 220px;"></textarea>
+    <div class="app-container">
+        <header class="header">
+            <h1 class="app-title">
+                <i class="fas fa-brain"></i>
+                Flashcards
+            </h1>
+            <div class="controls-header">
+                <!-- Novo seletor de idioma da interface -->
+                <div class="ui-language-selector">
+                    <label for="ui-language-select">🌐</label>
+                    <select id="ui-language-select" class="ui-language-dropdown">
+                        <option value="pt">🇧🇷 Português</option>
+                        <option value="en">🇺🇸 English</option>
+                        <option value="id">🇮🇩 Bahasa Indonesia</option>
+                    </select>
+                </div>
+                <div class="language-selector">
+                    <label for="language-select">Idioma:</label>
+                    <select id="language-select" class="language-dropdown">
+                        <option value="english">🇺🇸 Inglês → Português</option>
+                        <option value="indonesian">🇮🇩 Bahasa Indonesia → Português</option>
+                        <option value="portuguese-to-english">🇧🇷 Português → Inglês</option>
+                        <option value="portuguese-to-indonesian">🇧🇷 Português → Bahasa Indonesia</option>
+                    </select>
+                </div>
+                <div class="category-selector">
+                    <label for="category-select">Categoria:</label>
+                    <select id="category-select" class="category-dropdown">
+                        <option value="all">📚 Todas as Categorias</option>
+                        <option value="Pronomes Pessoais">👤 Pronomes Pessoais</option>
+                        <option value="Pronomes Possessivos">🤝 Pronomes Possessivos</option>
+                        <option value="Pronomes Demonstrativos">👉 Pronomes Demonstrativos</option>
+                        <option value="Números">🔢 Números</option>
+                        <option value="Adjetivos">🎨 Adjetivos</option>
+                        <option value="Advérbios de Tempo">⏰ Advérbios de Tempo</option>
+                        <option value="Advérbios de Frequência">🔄 Advérbios de Frequência</option>
+                        <option value="Advérbios de Lugar">📍 Advérbios de Lugar</option>
+                        <option value="Substantivos">📦 Substantivos</option>
+                        <option value="Verbos Essenciais">⚡ Verbos Essenciais</option>
+                        <option value="Verbos de Movimento">🏃 Verbos de Movimento</option>
+                        <option value="Verbos de Comunicação">💬 Verbos de Comunicação</option>
+                        <option value="Preposições">🔗 Preposições</option>
+                        <option value="Conjunções">🔀 Conjunções</option>
+                        <option value="Artigos">📝 Artigos</option>
+                        <option value="Família">👨‍👩‍👧‍👦 Família</option>
+                        <option value="Cores">🌈 Cores</option>
+                        <option value="Comida">🍽️ Comida</option>
+                        <option value="Tempo">🌤️ Tempo/Clima</option>
+                        <option value="Emoções">😊 Emoções</option>
+                    </select>
+                </div>
+            </div>
+        </header>
+
+        <main class="main-content">
+            <div class="progress-container">
+                <div class="progress-bar">
+                    <div class="progress-fill" id="progress-fill"></div>
+                </div>
+                <span class="progress-text" id="progress-text">1 / 100</span>
+            </div>
+
+            <div class="category-info" id="category-info">
+                <span class="current-category">📚 Todas as Categorias</span>
+                <span class="category-count" id="category-count">0 palavras</span>
+            </div>
+
+            <div class="flashcard-wrapper">
+                <div class="flashcard" id="flashcard">
+                    <div class="card-front" id="card-front">
+                        <div class="word-container">
+                            <h2 class="word" id="word">Carregando...</h2>
+                            <p class="definition" id="definition">Aguarde...</p>
+                            <div class="category-tag" id="category"></div>
+                        </div>
+                        <div class="flip-hint">
+                            <i class="fas fa-hand-pointer"></i>
+                            Clique para ver a tradução
+                        </div>
+                    </div>
+                    <div class="card-back" id="card-back">
+                        <div class="translation-container">
+                            <h3 class="translation" id="translation">Tradução</h3>
+                            <button class="show-front-btn" id="show-front-btn">
+                                <i class="fas fa-undo"></i>
+                                Ver palavra novamente
+                            </button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="controls">
+                <button class="control-btn secondary" id="prev-button">
+                    <i class="fas fa-chevron-left"></i>
+                    Anterior
+                </button>
+                <button class="control-btn shuffle" id="shuffle-button">
+                    <i class="fas fa-random"></i>
+                    Embaralhar
+                </button>
+                <button class="control-btn primary" id="next-button">
+                    Próxima
+                    <i class="fas fa-chevron-right"></i>
+                </button>
+            </div>
+
+            <div class="stats-container">
+                <div class="stat-item">
+                    <span class="stat-number" id="total-cards">0</span>
+                    <span class="stat-label">Total de Cards</span>
+                </div>
+                <div class="stat-item">
+                    <span class="stat-number" id="studied-cards">0</span>
+                    <span class="stat-label">Estudados</span>
+                </div>
+                <div class="stat-item">
+                    <span class="stat-number" id="category-progress">0%</span>
+                    <span class="stat-label">Progresso da Categoria</span>
+                </div>
+            </div>
+        </main>
+
+        <footer class="footer">
+            <p>Desenvolvido para aprendizado de idiomas</p>
+        </footer>
     </div>
     
     <script src="./scripts/app.js"></script>

@@ -1,0 +1,487 @@
+[
+  {
+    "word": "be",
+    "definition": "to exist; to have a particular quality",
+    "translation": "ser; estar"
+  },
+  {
+    "word": "have",
+    "definition": "to own or possess",
+    "translation": "ter; possuir"
+  },
+  {
+    "word": "do",
+    "definition": "to perform an action or task",
+    "translation": "fazer"
+  },
+  {
+    "word": "say",
+    "definition": "to speak or express in words",
+    "translation": "dizer"
+  },
+  {
+    "word": "go",
+    "definition": "to move from one place to another",
+    "translation": "ir"
+  },
+  {
+    "word": "get",
+    "definition": "to receive or obtain",
+    "translation": "obter; conseguir"
+  },
+  {
+    "word": "make",
+    "definition": "to create or produce",
+    "translation": "fazer; criar"
+  },
+  {
+    "word": "know",
+    "definition": "to be aware of or familiar with",
+    "translation": "saber; conhecer"
+  },
+  {
+    "word": "think",
+    "definition": "to have an opinion or idea",
+    "translation": "pensar; achar"
+  },
+  {
+    "word": "take",
+    "definition": "to grasp or carry with hands",
+    "translation": "pegar; levar"
+  },
+  {
+    "word": "see",
+    "definition": "to perceive with the eyes",
+    "translation": "ver"
+  },
+  {
+    "word": "come",
+    "definition": "to move toward or arrive at a place",
+    "translation": "vir"
+  },
+  {
+    "word": "want",
+    "definition": "to desire something",
+    "translation": "querer"
+  },
+  {
+    "word": "look",
+    "definition": "to direct one's gaze at something",
+    "translation": "olhar"
+  },
+  {
+    "word": "use",
+    "definition": "to put into service or action",
+    "translation": "usar"
+  },
+  {
+    "word": "find",
+    "definition": "to discover by searching",
+    "translation": "encontrar"
+  },
+  {
+    "word": "give",
+    "definition": "to offer something to someone",
+    "translation": "dar"
+  },
+  {
+    "word": "tell",
+    "definition": "to communicate information or a story",
+    "translation": "contar; dizer"
+  },
+  {
+    "word": "work",
+    "definition": "to perform a job or task",
+    "translation": "trabalhar"
+  },
+  {
+    "word": "call",
+    "definition": "to name or contact by phone",
+    "translation": "chamar; ligar"
+  },
+  {
+    "word": "try",
+    "definition": "to attempt to do something",
+    "translation": "tentar"
+  },
+  {
+    "word": "ask",
+    "definition": "to request information or help",
+    "translation": "perguntar; pedir"
+  },
+  {
+    "word": "need",
+    "definition": "to require something",
+    "translation": "precisar"
+  },
+  {
+    "word": "feel",
+    "definition": "to experience an emotion or physical sensation",
+    "translation": "sentir"
+  },
+  {
+    "word": "become",
+    "definition": "to begin to be something",
+    "translation": "tornar-se"
+  },
+  {
+    "word": "leave",
+    "definition": "to go away from a place",
+    "translation": "partir; deixar"
+  },
+  {
+    "word": "put",
+    "definition": "to place something in a specific position",
+    "translation": "colocar"
+  },
+  {
+    "word": "mean",
+    "definition": "to signify or intend",
+    "translation": "significar"
+  },
+  {
+    "word": "keep",
+    "definition": "to retain or continue to have",
+    "translation": "manter; guardar"
+  },
+  {
+    "word": "let",
+    "definition": "to allow or permit",
+    "translation": "deixar; permitir"
+  },
+  {
+    "word": "begin",
+    "definition": "to start doing something",
+    "translation": "começar; iniciar"
+  },
+  {
+    "word": "seem",
+    "definition": "to appear to be",
+    "translation": "parecer"
+  },
+  {
+    "word": "help",
+    "definition": "to assist or aid",
+    "translation": "ajudar"
+  },
+  {
+    "word": "show",
+    "definition": "to display or demonstrate",
+    "translation": "mostrar"
+  },
+  {
+    "word": "hear",
+    "definition": "to perceive sound",
+    "translation": "ouvir"
+  },
+  {
+    "word": "play",
+    "definition": "to engage in an activity for enjoyment",
+    "translation": "jogar; tocar; brincar"
+  },
+  {
+    "word": "run",
+    "definition": "to move quickly on foot",
+    "translation": "correr"
+  },
+  {
+    "word": "move",
+    "definition": "to change position or place",
+    "translation": "mover; mudar"
+  },
+  {
+    "word": "live",
+    "definition": "to be alive or reside",
+    "translation": "viver; morar"
+  },
+  {
+    "word": "believe",
+    "definition": "to accept as true",
+    "translation": "acreditar"
+  },
+  {
+    "word": "bring",
+    "definition": "to take something to a place",
+    "translation": "trazer"
+  },
+  {
+    "word": "I",
+    "definition": "first person singular pronoun",
+    "translation": "Eu",
+    "category": "Pronomes"
+  },
+  {
+    "word": "You",
+    "definition": "second person singular/plural pronoun",
+    "translation": "Você"
+  },
+  {
+    "word": "He",
+    "definition": "third person singular masculine pronoun",
+    "translation": "Ele"
+  },
+  {
+    "word": "She",
+    "definition": "third person singular feminine pronoun",
+    "translation": "Ela"
+  },
+  {
+    "word": "It",
+    "definition": "third person singular neutral pronoun",
+    "translation": "Isso / Ele / Ela (neutro)"
+  },
+  {
+    "word": "We",
+    "definition": "first person plural pronoun",
+    "translation": "Nós"
+  },
+  {
+    "word": "They",
+    "definition": "third person plural pronoun",
+    "translation": "Eles / Elas"
+  },
+  {
+    "word": "Me",
+    "definition": "object form of 'I'",
+    "translation": "Me / Mim"
+  },
+  {
+    "word": "Us",
+    "definition": "object form of 'We'",
+    "translation": "Nos"
+  },
+  {
+    "word": "Them",
+    "definition": "object form of 'They'",
+    "translation": "Eles / Elas"
+  },
+  {
+    "word": "Be",
+    "definition": "to exist or to be something",
+    "translation": "Ser / Estar",
+    "category": "Verbos mais comuns"
+  },
+  {
+    "word": "Have",
+    "definition": "to possess or own something",
+    "translation": "Ter"
+  },
+  {
+    "word": "Do",
+    "definition": "to perform or carry out an action",
+    "translation": "Fazer"
+  },
+  {
+    "word": "Say",
+    "definition": "to express something in words",
+    "translation": "Dizer"
+  },
+  {
+    "word": "Go",
+    "definition": "to move from one place to another",
+    "translation": "Ir"
+  },
+  {
+    "word": "Can",
+    "definition": "to be able to do something",
+    "translation": "Poder"
+  },
+  {
+    "word": "Get",
+    "definition": "to obtain or receive",
+    "translation": "Obter / Conseguir"
+  },
+  {
+    "word": "Make",
+    "definition": "to create or produce something",
+    "translation": "Fazer / Criar"
+  },
+  {
+    "word": "Know",
+    "definition": "to have knowledge or be aware of",
+    "translation": "Saber / Conhecer"
+  },
+  {
+    "word": "Think",
+    "definition": "to have an idea or belief",
+    "translation": "Pensar"
+  },
+  {
+    "word": "Take",
+    "definition": "to grasp, carry, or remove something",
+    "translation": "Levar / Pegar"
+  },
+  {
+    "word": "Want",
+    "definition": "to desire something",
+    "translation": "Querer"
+  },
+  {
+    "word": "Need",
+    "definition": "to require something",
+    "translation": "Precisar"
+  },
+  {
+    "word": "Like",
+    "definition": "to enjoy or find pleasant",
+    "translation": "Gostar"
+  },
+  {
+    "word": "Use",
+    "definition": "to put into action or service",
+    "translation": "Usar"
+  },
+  {
+    "word": "Time",
+    "definition": "the indefinite continued progress of existence",
+    "translation": "Tempo",
+    "category": "Substantivos comuns"
+  },
+  {
+    "word": "Person",
+    "definition": "a human being",
+    "translation": "Pessoa"
+  },
+  {
+    "word": "Year",
+    "definition": "a period of 12 months",
+    "translation": "Ano"
+  },
+  {
+    "word": "Way",
+    "definition": "a method, style, or manner of doing something",
+    "translation": "Caminho / Jeito"
+  },
+  {
+    "word": "Day",
+    "definition": "a 24-hour period",
+    "translation": "Dia"
+  },
+  {
+    "word": "Thing",
+    "definition": "an object or item",
+    "translation": "Coisa"
+  },
+  {
+    "word": "Man",
+    "definition": "an adult male human",
+    "translation": "Homem"
+  },
+  {
+    "word": "Woman",
+    "definition": "an adult female human",
+    "translation": "Mulher"
+  },
+  {
+    "word": "World",
+    "definition": "the earth or universe",
+    "translation": "Mundo"
+  },
+  {
+    "word": "Life",
+    "definition": "the existence of an individual human or animal",
+    "translation": "Vida"
+  },
+  {
+    "word": "And",
+    "definition": "used to connect words or phrases",
+    "translation": "E",
+    "category": "Conectores e auxiliares"
+  },
+  {
+    "word": "But",
+    "definition": "used to show contrast",
+    "translation": "Mas"
+  },
+  {
+    "word": "Or",
+    "definition": "used to indicate an alternative",
+    "translation": "Ou"
+  },
+  {
+    "word": "Because",
+    "definition": "used to explain reasons",
+    "translation": "Porque"
+  },
+  {
+    "word": "So",
+    "definition": "used to indicate consequence",
+    "translation": "Então / Por isso"
+  },
+  {
+    "word": "If",
+    "definition": "used to express a condition",
+    "translation": "Se"
+  },
+  {
+    "word": "When",
+    "definition": "used to refer to time",
+    "translation": "Quando"
+  },
+  {
+    "word": "While",
+    "definition": "used to indicate simultaneous events",
+    "translation": "Enquanto"
+  },
+  {
+    "word": "That",
+    "definition": "used to introduce a clause or refer to something",
+    "translation": "Que / Aquele(a)"
+  },
+  {
+    "word": "What",
+    "definition": "used to ask for information",
+    "translation": "O que / Qual"
+  },
+  {
+    "word": "A / An",
+    "definition": "indefinite article used before singular nouns",
+    "translation": "Um / Uma",
+    "category": "Artigos e preposições"
+  },
+  {
+    "word": "The",
+    "definition": "definite article used before specific nouns",
+    "translation": "O / A / Os / As"
+  },
+  {
+    "word": "In",
+    "definition": "indicates position within something",
+    "translation": "Em / Dentro de"
+  },
+  {
+    "word": "On",
+    "definition": "indicates position on a surface",
+    "translation": "Em cima / Sobre"
+  },
+  {
+    "word": "At",
+    "definition": "indicates specific time or place",
+    "translation": "Em (local ou tempo)"
+  },
+  {
+    "word": "To",
+    "definition": "indicates direction or purpose",
+    "translation": "Para / A"
+  },
+  {
+    "word": "For",
+    "definition": "indicates purpose or benefit",
+    "translation": "Para / Por"
+  },
+  {
+    "word": "With",
+    "definition": "indicates accompaniment or possession",
+    "translation": "Com"
+  },
+  {
+    "word": "From",
+    "definition": "indicates origin or starting point",
+    "translation": "De / A partir de"
+  },
+  {
+    "word": "About",
+    "definition": "concerning or related to",
+    "translation": "Sobre"
+  }
+]

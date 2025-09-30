@@ -1,0 +1,104 @@
+[
+  {
+    "word": "saya",
+    "definition": "kata ganti orang pertama tunggal",
+    "translation": "eu",
+    "category": "Kata Ganti Orang"
+  },
+  {
+    "word": "anda",
+    "definition": "kata ganti orang kedua (formal)",
+    "translation": "você (formal)",
+    "category": "Kata Ganti Orang"
+  },
+  {
+    "word": "kamu",
+    "definition": "kata ganti orang kedua (informal)",
+    "translation": "você (informal)",
+    "category": "Kata Ganti Orang"
+  },
+  {
+    "word": "dia",
+    "definition": "kata ganti orang ketiga",
+    "translation": "ele/ela",
+    "category": "Kata Ganti Orang"
+  },
+  {
+    "word": "kita",
+    "definition": "kata ganti orang pertama jamak (inklusif)",
+    "translation": "nós (incluindo quem fala)",
+    "category": "Kata Ganti Orang"
+  },
+  {
+    "word": "kami",
+    "definition": "kata ganti orang pertama jamak (eksklusif)",
+    "translation": "nós (excluindo quem fala)",
+    "category": "Kata Ganti Orang"
+  },
+  {
+    "word": "mereka",
+    "definition": "kata ganti orang ketiga jamak",
+    "translation": "eles/elas",
+    "category": "Kata Ganti Orang"
+  },
+  {
+    "word": "saya punya",
+    "definition": "ungkapan kepemilikan orang pertama",
+    "translation": "meu/minha",
+    "category": "Kata Ganti Kepunyaan"
+  },
+  {
+    "word": "kamu punya",
+    "definition": "ungkapan kepemilikan orang kedua",
+    "translation": "seu/sua",
+    "category": "Kata Ganti Kepunyaan"
+  },
+  {
+    "word": "dia punya",
+    "definition": "ungkapan kepemilikan orang ketiga",
+    "translation": "dele/dela",
+    "category": "Kata Ganti Kepunyaan"
+  },
+  {
+    "word": "kita punya",
+    "definition": "ungkapan kepemilikan orang pertama jamak",
+    "translation": "nosso/nossa",
+    "category": "Kata Ganti Kepunyaan"
+  },
+  {
+    "word": "mereka punya",
+    "definition": "ungkapan kepemilikan orang ketiga jamak",
+    "translation": "deles/delas",
+    "category": "Kata Ganti Kepunyaan"
+  },
+  {
+    "word": "ini",
+    "definition": "kata ganti penunjuk untuk objek yang dekat",
+    "translation": "este/esta/isto",
+    "category": "Kata Ganti Penunjuk"
+  },
+  {
+    "word": "itu",
+    "definition": "kata ganti penunjuk untuk objek yang jauh",
+    "translation": "aquele/aquela/aquilo",
+    "category": "Kata Ganti Penunjuk"
+  },
+  {
+    "word": "satu",
+    "definition": "angka kardinal 1",
+    "translation": "um",
+    "category": "Angka"
+  },
+  {
+    "word": "dua",
+    "definition": "angka kardinal 2",
+    "translation": "dois",
+    "category": "Angka"
+  },
+  {
+    "word": "tiga",
+    "definition": "angka kardinal 3",
+    "translation": "três",
+    "category": "Angka"
+  }
+]

@@ -1,0 +1,66 @@
+{
+  "app": {
+    "title": "Flashcards",
+    "subtitle": "Learn Languages",
+    "loading": "Loading...",
+    "wait": "Please wait..."
+  },
+  "interface": {
+    "language": "Language:",
+    "category": "Category:",
+    "allCategories": "📚 All Categories",
+    "words": "words",
+    "clickToTranslate": "Click to see translation",
+    "showWordAgain": "Show word again",
+    "previous": "Previous",
+    "next": "Next",
+    "shuffle": "Shuffle",
+    "shuffled": "Shuffled!",
+    "translation": "Translation"
+  },
+  "languages": {
+    "englishToPortuguese": "🇺🇸 English → Portuguese",
+    "indonesianToPortuguese": "🇮🇩 Bahasa Indonesia → Portuguese",
+    "portugueseToEnglish": "🇧🇷 Portuguese → English",
+    "portugueseToIndonesian": "🇧🇷 Portuguese → Bahasa Indonesia"
+  },
+  "categories": {
+    "personalPronouns": "👤 Personal Pronouns",
+    "possessivePronouns": "🤝 Possessive Pronouns",
+    "demonstrativePronouns": "👉 Demonstrative Pronouns",
+    "numbers": "🔢 Numbers",
+    "adjectives": "🎨 Adjectives",
+    "timeAdverbs": "⏰ Time Adverbs",
+    "frequencyAdverbs": "🔄 Frequency Adverbs",
+    "placeAdverbs": "📍 Place Adverbs",
+    "nouns": "📦 Nouns",
+    "essentialVerbs": "⚡ Essential Verbs",
+    "movementVerbs": "🏃 Movement Verbs",
+    "communicationVerbs": "💬 Communication Verbs",
+    "prepositions": "🔗 Prepositions",
+    "conjunctions": "🔀 Conjunctions",
+    "articles": "📝 Articles",
+    "family": "👨‍👩‍👧‍👦 Family",
+    "colors": "🌈 Colors",
+    "food": "🍽️ Food",
+    "weather": "🌤️ Weather/Climate",
+    "emotions": "😊 Emotions"
+  },
+  "stats": {
+    "totalCards": "Total Cards",
+    "studied": "Studied",
+    "categoryProgress": "Category Progress"
+  },
+  "feedback": {
+    "title": "Your Notes",
+    "placeholder": "Make your notes about this word..."
+  },
+  "footer": {
+    "developedFor": "Developed for language learning",
+    "verbConjugator": "Verb Conjugator"
+  },
+  "errors": {
+    "loadingError": "Error loading flashcards",
+    "noCards": "No cards found for this category"
+  }
+}
