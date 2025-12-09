@@ -1,26 +1,24 @@
-<!DOCTYPE html>
-<html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Flashcard Application</title>
-    <link rel="stylesheet" href="styles/style.css">
-</head>
-<body>
-    <div class="container">
-        <h1>Flashcard Application</h1>
-        <div id="flashcards-container"></div>
-        <button id="next-button">Próxima</button>
-        <br/>
-        <br/>
-        <br/>
-        <p>Resultado:<span id="result"></span></p>
-        <br/>
-        <br/>
-        <br/>
-        <textarea id="feedback" placeholder="Feedback" style="width: 100%; color: #FFF; background-color: transparent; font-size: 24px; min-height: 220px;"></textarea>
-    </div>
-    
-    <script src="./scripts/app.js"></script>
-</body>
-</html>
+<!doctype html>
+<html lang="pt-BR">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Flashcards</title>
+    <link rel="manifest" href="/manifest.webmanifest" />
+    <link rel="icon" href="/icons/icon.svg" type="image/svg+xml" />
+    <link rel="apple-touch-icon" href="/icons/icon.svg" />
+    <meta name="apple-mobile-web-app-capable" content="yes" />
+    <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent" />
+  </head>
+  <body>
+    <div id="root"></div>
+    <script type="module" src="/src/main.jsx"></script>
+    <script>
+      if ('serviceWorker' in navigator) {
+        window.addEventListener('load', () => {
+          navigator.serviceWorker.register('/sw.js');
+        });
+      }
+    </script>
+  </body>
+  </html>

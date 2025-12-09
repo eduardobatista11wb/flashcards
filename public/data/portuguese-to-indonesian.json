@@ -1,0 +1,302 @@
+[
+  {
+    "word": "eu",
+    "definition": "pronome pessoal primeira pessoa do singular",
+    "translation": "saya",
+    "category": "Pronomes Pessoais"
+  },
+  {
+    "word": "você",
+    "definition": "pronome pessoal segunda pessoa",
+    "translation": "anda/kamu",
+    "category": "Pronomes Pessoais"
+  },
+  {
+    "word": "ele",
+    "definition": "pronome pessoal terceira pessoa masculino",
+    "translation": "dia",
+    "category": "Pronomes Pessoais"
+  },
+  {
+    "word": "ela",
+    "definition": "pronome pessoal terceira pessoa feminino",
+    "translation": "dia",
+    "category": "Pronomes Pessoais"
+  },
+  {
+    "word": "nós",
+    "definition": "pronome pessoal primeira pessoa plural",
+    "translation": "kita/kami",
+    "category": "Pronomes Pessoais"
+  },
+  {
+    "word": "eles",
+    "definition": "pronome pessoal terceira pessoa plural",
+    "translation": "mereka",
+    "category": "Pronomes Pessoais"
+  },
+  {
+    "word": "elas",
+    "definition": "pronome pessoal terceira pessoa plural feminino",
+    "translation": "mereka",
+    "category": "Pronomes Pessoais"
+  },
+  {
+    "word": "meu",
+    "definition": "pronome possessivo primeira pessoa masculino",
+    "translation": "saya punya",
+    "category": "Pronomes Possessivos"
+  },
+  {
+    "word": "minha",
+    "definition": "pronome possessivo primeira pessoa feminino",
+    "translation": "saya punya",
+    "category": "Pronomes Possessivos"
+  },
+  {
+    "word": "seu",
+    "definition": "pronome possessivo segunda pessoa masculino",
+    "translation": "kamu punya",
+    "category": "Pronomes Possessivos"
+  },
+  {
+    "word": "sua",
+    "definition": "pronome possessivo segunda pessoa feminino",
+    "translation": "kamu punya",
+    "category": "Pronomes Possessivos"
+  },
+  {
+    "word": "dele",
+    "definition": "pronome possessivo terceira pessoa masculino",
+    "translation": "dia punya",
+    "category": "Pronomes Possessivos"
+  },
+  {
+    "word": "dela",
+    "definition": "pronome possessivo terceira pessoa feminino",
+    "translation": "dia punya",
+    "category": "Pronomes Possessivos"
+  },
+  {
+    "word": "um",
+    "definition": "número cardinal 1",
+    "translation": "satu",
+    "category": "Números"
+  },
+  {
+    "word": "dois",
+    "definition": "número cardinal 2",
+    "translation": "dua",
+    "category": "Números"
+  },
+  {
+    "word": "três",
+    "definition": "número cardinal 3",
+    "translation": "tiga",
+    "category": "Números"
+  },
+  {
+    "word": "quatro",
+    "definition": "número cardinal 4",
+    "translation": "empat",
+    "category": "Números"
+  },
+  {
+    "word": "cinco",
+    "definition": "número cardinal 5",
+    "translation": "lima",
+    "category": "Números"
+  },
+  {
+    "word": "dez",
+    "definition": "número cardinal 10",
+    "translation": "sepuluh",
+    "category": "Números"
+  },
+  {
+    "word": "cem",
+    "definition": "número cardinal 100",
+    "translation": "seratus",
+    "category": "Números"
+  },
+  {
+    "word": "bom",
+    "definition": "qualidade positiva",
+    "translation": "baik",
+    "category": "Adjetivos"
+  },
+  {
+    "word": "ruim",
+    "definition": "qualidade negativa",
+    "translation": "buruk",
+    "category": "Adjetivos"
+  },
+  {
+    "word": "grande",
+    "definition": "de tamanho avantajado",
+    "translation": "besar",
+    "category": "Adjetivos"
+  },
+  {
+    "word": "pequeno",
+    "definition": "de tamanho reduzido",
+    "translation": "kecil",
+    "category": "Adjetivos"
+  },
+  {
+    "word": "novo",
+    "definition": "recentemente criado",
+    "translation": "baru",
+    "category": "Adjetivos"
+  },
+  {
+    "word": "velho",
+    "definition": "que existe há muito tempo",
+    "translation": "lama",
+    "category": "Adjetivos"
+  },
+  {
+    "word": "bonito",
+    "definition": "de aparência agradável",
+    "translation": "cantik",
+    "category": "Adjetivos"
+  },
+  {
+    "word": "feio",
+    "definition": "de aparência desagradável",
+    "translation": "jelek",
+    "category": "Adjetivos"
+  },
+  {
+    "word": "agora",
+    "definition": "no momento presente",
+    "translation": "sekarang",
+    "category": "Advérbios de Tempo"
+  },
+  {
+    "word": "hoje",
+    "definition": "neste dia",
+    "translation": "hari ini",
+    "category": "Advérbios de Tempo"
+  },
+  {
+    "word": "ontem",
+    "definition": "no dia anterior a hoje",
+    "translation": "kemarin",
+    "category": "Advérbios de Tempo"
+  },
+  {
+    "word": "amanhã",
+    "definition": "no dia seguinte a hoje",
+    "translation": "besok",
+    "category": "Advérbios de Tempo"
+  },
+  {
+    "word": "sempre",
+    "definition": "em todos os momentos",
+    "translation": "selalu",
+    "category": "Advérbios de Frequência"
+  },
+  {
+    "word": "nunca",
+    "definition": "em nenhum momento",
+    "translation": "tidak pernah",
+    "category": "Advérbios de Frequência"
+  },
+  {
+    "word": "às vezes",
+    "definition": "ocasionalmente",
+    "translation": "kadang-kadang",
+    "category": "Advérbios de Frequência"
+  },
+  {
+    "word": "casa",
+    "definition": "lugar onde se mora",
+    "translation": "rumah",
+    "category": "Casa"
+  },
+  {
+    "word": "quarto",
+    "definition": "cômodo para dormir",
+    "translation": "kamar tidur",
+    "category": "Casa"
+  },
+  {
+    "word": "cozinha",
+    "definition": "cômodo para cozinhar",
+    "translation": "dapur",
+    "category": "Casa"
+  },
+  {
+    "word": "banheiro",
+    "definition": "cômodo com vaso sanitário e banho",
+    "translation": "kamar mandi",
+    "category": "Casa"
+  },
+  {
+    "word": "ser",
+    "definition": "verbo de ligação, existir",
+    "translation": "adalah",
+    "category": "Verbos Essenciais"
+  },
+  {
+    "word": "ter",
+    "definition": "possuir algo",
+    "translation": "punya",
+    "category": "Verbos Essenciais"
+  },
+  {
+    "word": "ir",
+    "definition": "mover-se para outro lugar",
+    "translation": "pergi",
+    "category": "Verbos de Movimento"
+  },
+  {
+    "word": "vir",
+    "definition": "mover-se para este lugar",
+    "translation": "datang",
+    "category": "Verbos de Movimento"
+  },
+  {
+    "word": "correr",
+    "definition": "mover-se rapidamente a pé",
+    "translation": "lari",
+    "category": "Verbos de Movimento"
+  },
+  {
+    "word": "caminhar",
+    "definition": "mover-se a pé",
+    "translation": "jalan",
+    "category": "Verbos de Movimento"
+  },
+  {
+    "word": "falar",
+    "definition": "comunicar-se através da voz",
+    "translation": "bicara",
+    "category": "Verbos de Comunicação"
+  },
+  {
+    "word": "dizer",
+    "definition": "expressar em palavras",
+    "translation": "berkata",
+    "category": "Verbos de Comunicação"
+  },
+  {
+    "word": "comer",
+    "definition": "ingerir alimento",
+    "translation": "makan",
+    "category": "Verbos de Ação"
+  },
+  {
+    "word": "beber",
+    "definition": "ingerir líquido",
+    "translation": "minum",
+    "category": "Verbos de Ação"
+  },
+  {
+    "word": "dormir",
+    "definition": "repousar durante o sono",
+    "translation": "tidur",
+    "category": "Verbos de Ação"
+  }
+]

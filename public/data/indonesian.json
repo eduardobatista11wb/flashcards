@@ -1,0 +1,440 @@
+[
+  {
+    "word": "saya",
+    "definition": "pronome pessoal primeira pessoa do singular",
+    "translation": "eu",
+    "category": "Pronomes Pessoais"
+  },
+  {
+    "word": "anda",
+    "definition": "pronome pessoal segunda pessoa (formal)",
+    "translation": "você (formal)",
+    "category": "Pronomes Pessoais"
+  },
+  {
+    "word": "kamu",
+    "definition": "pronome pessoal segunda pessoa (informal)",
+    "translation": "você (informal)",
+    "category": "Pronomes Pessoais"
+  },
+  {
+    "word": "dia",
+    "definition": "pronome pessoal terceira pessoa",
+    "translation": "ele/ela",
+    "category": "Pronomes Pessoais"
+  },
+  {
+    "word": "kita",
+    "definition": "pronome pessoal primeira pessoa plural (inclusivo)",
+    "translation": "nós (incluindo quem fala)",
+    "category": "Pronomes Pessoais"
+  },
+  {
+    "word": "kami",
+    "definition": "pronome pessoal primeira pessoa plural (exclusivo)",
+    "translation": "nós (excluindo quem fala)",
+    "category": "Pronomes Pessoais"
+  },
+  {
+    "word": "mereka",
+    "definition": "pronome pessoal terceira pessoa plural",
+    "translation": "eles/elas",
+    "category": "Pronomes Pessoais"
+  },
+  {
+    "word": "saya punya",
+    "definition": "expressão de posse primeira pessoa",
+    "translation": "meu/minha",
+    "category": "Pronomes Possessivos"
+  },
+  {
+    "word": "kamu punya",
+    "definition": "expressão de posse segunda pessoa",
+    "translation": "seu/sua",
+    "category": "Pronomes Possessivos"
+  },
+  {
+    "word": "dia punya",
+    "definition": "expressão de posse terceira pessoa",
+    "translation": "dele/dela",
+    "category": "Pronomes Possessivos"
+  },
+  {
+    "word": "kita punya",
+    "definition": "expressão de posse primeira pessoa plural",
+    "translation": "nosso/nossa",
+    "category": "Pronomes Possessivos"
+  },
+  {
+    "word": "mereka punya",
+    "definition": "expressão de posse terceira pessoa plural",
+    "translation": "deles/delas",
+    "category": "Pronomes Possessivos"
+  },
+  {
+    "word": "ini",
+    "definition": "pronome demonstrativo para objetos próximos",
+    "translation": "este/esta/isto",
+    "category": "Pronomes Demonstrativos"
+  },
+  {
+    "word": "itu",
+    "definition": "pronome demonstrativo para objetos distantes",
+    "translation": "aquele/aquela/aquilo",
+    "category": "Pronomes Demonstrativos"
+  },
+  {
+    "word": "satu",
+    "definition": "número cardinal 1",
+    "translation": "um",
+    "category": "Números"
+  },
+  {
+    "word": "dua",
+    "definition": "número cardinal 2",
+    "translation": "dois",
+    "category": "Números"
+  },
+  {
+    "word": "tiga",
+    "definition": "número cardinal 3",
+    "translation": "três",
+    "category": "Números"
+  },
+  {
+    "word": "empat",
+    "definition": "número cardinal 4",
+    "translation": "quatro",
+    "category": "Números"
+  },
+  {
+    "word": "lima",
+    "definition": "número cardinal 5",
+    "translation": "cinco",
+    "category": "Números"
+  },
+  {
+    "word": "sepuluh",
+    "definition": "número cardinal 10",
+    "translation": "dez",
+    "category": "Números"
+  },
+  {
+    "word": "seratus",
+    "definition": "número cardinal 100",
+    "translation": "cem",
+    "category": "Números"
+  },
+  {
+    "word": "baik",
+    "definition": "qualidade positiva",
+    "translation": "bom",
+    "category": "Adjetivos"
+  },
+  {
+    "word": "buruk",
+    "definition": "qualidade negativa",
+    "translation": "ruim",
+    "category": "Adjetivos"
+  },
+  {
+    "word": "besar",
+    "definition": "de tamanho grande",
+    "translation": "grande",
+    "category": "Adjetivos"
+  },
+  {
+    "word": "kecil",
+    "definition": "de tamanho pequeno",
+    "translation": "pequeno",
+    "category": "Adjetivos"
+  },
+  {
+    "word": "baru",
+    "definition": "recentemente criado",
+    "translation": "novo",
+    "category": "Adjetivos"
+  },
+  {
+    "word": "lama",
+    "definition": "que existe há muito tempo",
+    "translation": "velho",
+    "category": "Adjetivos"
+  },
+  {
+    "word": "cantik",
+    "definition": "de aparência agradável",
+    "translation": "bonito/bonita",
+    "category": "Adjetivos"
+  },
+  {
+    "word": "jelek",
+    "definition": "de aparência desagradável",
+    "translation": "feio",
+    "category": "Adjetivos"
+  },
+  {
+    "word": "sekarang",
+    "definition": "no momento presente",
+    "translation": "agora",
+    "category": "Advérbios de Tempo"
+  },
+  {
+    "word": "hari ini",
+    "definition": "neste dia",
+    "translation": "hoje",
+    "category": "Advérbios de Tempo"
+  },
+  {
+    "word": "kemarin",
+    "definition": "no dia anterior a hoje",
+    "translation": "ontem",
+    "category": "Advérbios de Tempo"
+  },
+  {
+    "word": "besok",
+    "definition": "no dia seguinte a hoje",
+    "translation": "amanhã",
+    "category": "Advérbios de Tempo"
+  },
+  {
+    "word": "segera",
+    "definition": "em pouco tempo",
+    "translation": "em breve",
+    "category": "Advérbios de Tempo"
+  },
+  {
+    "word": "nanti",
+    "definition": "em um momento futuro",
+    "translation": "mais tarde",
+    "category": "Advérbios de Tempo"
+  },
+  {
+    "word": "dulu",
+    "definition": "em um momento passado",
+    "translation": "antes/antigamente",
+    "category": "Advérbios de Tempo"
+  },
+  {
+    "word": "selalu",
+    "definition": "em todos os momentos",
+    "translation": "sempre",
+    "category": "Advérbios de Frequência"
+  },
+  {
+    "word": "tidak pernah",
+    "definition": "em nenhum momento",
+    "translation": "nunca",
+    "category": "Advérbios de Frequência"
+  },
+  {
+    "word": "kadang-kadang",
+    "definition": "ocasionalmente",
+    "translation": "às vezes",
+    "category": "Advérbios de Frequência"
+  },
+  {
+    "word": "sering",
+    "definition": "frequentemente",
+    "translation": "frequentemente",
+    "category": "Advérbios de Frequência"
+  },
+  {
+    "word": "jarang",
+    "definition": "não frequentemente",
+    "translation": "raramente",
+    "category": "Advérbios de Frequência"
+  },
+  {
+    "word": "biasanya",
+    "definition": "na maioria dos casos",
+    "translation": "geralmente",
+    "category": "Advérbios de Frequência"
+  },
+  {
+    "word": "cepat",
+    "definition": "com velocidade alta",
+    "translation": "rapidamente",
+    "category": "Advérbios de Modo"
+  },
+  {
+    "word": "lambat",
+    "definition": "com velocidade baixa",
+    "translation": "lentamente",
+    "category": "Advérbios de Modo"
+  },
+  {
+    "word": "hati-hati",
+    "definition": "com atenção aos detalhes",
+    "translation": "cuidadosamente",
+    "category": "Advérbios de Modo"
+  },
+  {
+    "word": "mudah",
+    "definition": "sem dificuldade",
+    "translation": "facilmente",
+    "category": "Advérbios de Modo"
+  },
+  {
+    "word": "rumah",
+    "definition": "lugar onde se mora",
+    "translation": "casa",
+    "category": "Casa"
+  },
+  {
+    "word": "kamar",
+    "definition": "espaço dentro de um edifício",
+    "translation": "quarto/sala",
+    "category": "Casa"
+  },
+  {
+    "word": "dapur",
+    "definition": "cômodo para cozinhar",
+    "translation": "cozinha",
+    "category": "Casa"
+  },
+  {
+    "word": "kamar mandi",
+    "definition": "cômodo com vaso sanitário e banho",
+    "translation": "banheiro",
+    "category": "Casa"
+  },
+  {
+    "word": "kamar tidur",
+    "definition": "cômodo para dormir",
+    "translation": "quarto",
+    "category": "Casa"
+  },
+  {
+    "word": "adalah",
+    "definition": "verbo de ligação, ser/estar",
+    "translation": "é/são",
+    "category": "Verbos Essenciais"
+  },
+  {
+    "word": "ada",
+    "definition": "verbo existencial, haver/ter",
+    "translation": "há/existe",
+    "category": "Verbos Essenciais"
+  },
+  {
+    "word": "punya",
+    "definition": "possuir ou ter algo",
+    "translation": "ter",
+    "category": "Verbos Essenciais"
+  },
+  {
+    "word": "pergi",
+    "definition": "ação de ir embora ou partir",
+    "translation": "ir",
+    "category": "Verbos de Movimento"
+  },
+  {
+    "word": "datang",
+    "definition": "ação de chegar ou vir",
+    "translation": "vir/chegar",
+    "category": "Verbos de Movimento"
+  },
+  {
+    "word": "lari",
+    "definition": "mover-se rapidamente a pé",
+    "translation": "correr",
+    "category": "Verbos de Movimento"
+  },
+  {
+    "word": "jalan",
+    "definition": "mover-se a pé",
+    "translation": "caminhar",
+    "category": "Verbos de Movimento"
+  },
+  {
+    "word": "lihat",
+    "definition": "ação de ver com os olhos",
+    "translation": "ver",
+    "category": "Verbos de Percepção"
+  },
+  {
+    "word": "dengar",
+    "definition": "ação de perceber som",
+    "translation": "ouvir",
+    "category": "Verbos de Percepção"
+  },
+  {
+    "word": "rasa",
+    "definition": "experimentar através do toque ou emoção",
+    "translation": "sentir",
+    "category": "Verbos de Percepção"
+  },
+  {
+    "word": "bicara",
+    "definition": "ação de falar ou conversar",
+    "translation": "falar",
+    "category": "Verbos de Comunicação"
+  },
+  {
+    "word": "berkata",
+    "definition": "expressar em palavras",
+    "translation": "dizer",
+    "category": "Verbos de Comunicação"
+  },
+  {
+    "word": "cerita",
+    "definition": "comunicar informação",
+    "translation": "contar",
+    "category": "Verbos de Comunicação"
+  },
+  {
+    "word": "pikir",
+    "definition": "ter pensamentos ou opiniões",
+    "translation": "pensar",
+    "category": "Verbos Mentais"
+  },
+  {
+    "word": "tahu",
+    "definition": "estar ciente ou familiarizado com",
+    "translation": "saber",
+    "category": "Verbos Mentais"
+  },
+  {
+    "word": "mengerti",
+    "definition": "compreender o significado",
+    "translation": "entender",
+    "category": "Verbos Mentais"
+  },
+  {
+    "word": "makan",
+    "definition": "ação de consumir alimento",
+    "translation": "comer",
+    "category": "Verbos de Ação"
+  },
+  {
+    "word": "minum",
+    "definition": "ação de consumir líquido",
+    "translation": "beber",
+    "category": "Verbos de Ação"
+  },
+  {
+    "word": "tidur",
+    "definition": "ação de descansar/dormir",
+    "translation": "dormir",
+    "category": "Verbos de Ação"
+  },
+  {
+    "word": "bangun",
+    "definition": "ação de acordar ou levantar",
+    "translation": "acordar/levantar",
+    "category": "Verbos de Ação"
+  },
+  {
+    "word": "baca",
+    "definition": "ação de ler texto",
+    "translation": "ler",
+    "category": "Verbos de Ação"
+  },
+  {
+    "word": "tulis",
+    "definition": "ação de escrever",
+    "translation": "escrever",
+    "category": "Verbos de Ação"
+  }
+]

@@ -1,0 +1,70 @@
+{
+  "app": {
+    "title": "Flashcards",
+    "subtitle": "Belajar Bahasa",
+    "loading": "Memuat...",
+    "wait": "Harap tunggu..."
+  },
+  "interface": {
+    "language": "Bahasa:",
+    "uiLanguage": "Bahasa antarmuka:",
+    "category": "Kategori:",
+    "allCategories": "📚 Semua Kategori",
+    "words": "kata",
+    "clickToTranslate": "Klik untuk melihat terjemahan",
+    "showWordAgain": "Tampilkan kata lagi",
+    "previous": "Sebelumnya",
+    "next": "Berikutnya",
+    "shuffle": "Acak",
+    "shuffled": "Diacak!",
+    "translation": "Terjemahan"
+  },
+  "languages": {
+    "englishToPortuguese": "🇺🇸 Bahasa Inggris → Portugis",
+    "indonesianToPortuguese": "🇮🇩 Bahasa Indonesia → Portugis",
+    "portugueseToEnglish": "🇧🇷 Portugis → Bahasa Inggris",
+    "portugueseToIndonesian": "🇧🇷 Portugis → Bahasa Indonesia",
+    "english": "Bahasa Inggris",
+    "portuguese": "Portugis",
+    "indonesian": "Bahasa Indonesia"
+  },
+  "categories": {
+    "personalPronouns": "👤 Kata Ganti Orang",
+    "possessivePronouns": "🤝 Kata Ganti Kepunyaan",
+    "demonstrativePronouns": "👉 Kata Ganti Penunjuk",
+    "numbers": "🔢 Angka",
+    "adjectives": "🎨 Kata Sifat",
+    "timeAdverbs": "⏰ Kata Keterangan Waktu",
+    "frequencyAdverbs": "🔄 Kata Keterangan Frekuensi",
+    "placeAdverbs": "📍 Kata Keterangan Tempat",
+    "nouns": "📦 Kata Benda",
+    "essentialVerbs": "⚡ Kata Kerja Penting",
+    "movementVerbs": "🏃 Kata Kerja Gerakan",
+    "communicationVerbs": "💬 Kata Kerja Komunikasi",
+    "prepositions": "🔗 Kata Depan",
+    "conjunctions": "🔀 Kata Sambung",
+    "articles": "📝 Kata Sandang",
+    "family": "👨‍👩‍👧‍👦 Keluarga",
+    "colors": "🌈 Warna",
+    "food": "🍽️ Makanan",
+    "weather": "🌤️ Cuaca/Iklim",
+    "emotions": "😊 Emosi"
+  },
+  "stats": {
+    "totalCards": "Total Kartu",
+    "studied": "Dipelajari",
+    "categoryProgress": "Kemajuan Kategori"
+  },
+  "feedback": {
+    "title": "Catatan Anda",
+    "placeholder": "Buat catatan tentang kata ini..."
+  },
+  "footer": {
+    "developedFor": "Dikembangkan untuk pembelajaran bahasa",
+    "verbConjugator": "Konjugator Kata Kerja"
+  },
+  "errors": {
+    "loadingError": "Kesalahan memuat flashcards",
+    "noCards": "Tidak ada kartu ditemukan untuk kategori ini"
+  }
+}

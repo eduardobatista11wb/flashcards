@@ -1,0 +1,650 @@
+[
+  {
+    "word": "I",
+    "definition": "pronome pessoal primeira pessoa do singular",
+    "translation": "eu",
+    "category": "Pronomes Pessoais"
+  },
+  {
+    "word": "you",
+    "definition": "pronome pessoal segunda pessoa",
+    "translation": "você",
+    "category": "Pronomes Pessoais"
+  },
+  {
+    "word": "he",
+    "definition": "pronome pessoal terceira pessoa masculino",
+    "translation": "ele",
+    "category": "Pronomes Pessoais"
+  },
+  {
+    "word": "she",
+    "definition": "pronome pessoal terceira pessoa feminino",
+    "translation": "ela",
+    "category": "Pronomes Pessoais"
+  },
+  {
+    "word": "it",
+    "definition": "pronome pessoal terceira pessoa neutro",
+    "translation": "isso/ele/ela (neutro)",
+    "category": "Pronomes Pessoais"
+  },
+  {
+    "word": "we",
+    "definition": "first person plural pronoun",
+    "translation": "nós",
+    "category": "Pronomes Pessoais"
+  },
+  {
+    "word": "they",
+    "definition": "third person plural pronoun",
+    "translation": "eles/elas",
+    "category": "Pronomes Pessoais"
+  },
+  {
+    "word": "my",
+    "definition": "possessive adjective for first person singular",
+    "translation": "meu/minha",
+    "category": "Pronomes Possessivos"
+  },
+  {
+    "word": "your",
+    "definition": "possessive adjective for second person",
+    "translation": "seu/sua",
+    "category": "Pronomes Possessivos"
+  },
+  {
+    "word": "his",
+    "definition": "possessive adjective for third person masculine",
+    "translation": "dele",
+    "category": "Pronomes Possessivos"
+  },
+  {
+    "word": "her",
+    "definition": "possessive adjective for third person feminine",
+    "translation": "dela",
+    "category": "Pronomes Possessivos"
+  },
+  {
+    "word": "its",
+    "definition": "possessive adjective for third person neutral",
+    "translation": "seu/sua (neutro)",
+    "category": "Pronomes Possessivos"
+  },
+  {
+    "word": "our",
+    "definition": "possessive adjective for first person plural",
+    "translation": "nosso/nossa",
+    "category": "Pronomes Possessivos"
+  },
+  {
+    "word": "their",
+    "definition": "possessive adjective for third person plural",
+    "translation": "deles/delas",
+    "category": "Pronomes Possessivos"
+  },
+  {
+    "word": "this",
+    "definition": "demonstrative pronoun for near objects (singular)",
+    "translation": "este/esta/isto",
+    "category": "Pronomes Demonstrativos"
+  },
+  {
+    "word": "that",
+    "definition": "demonstrative pronoun for distant objects (singular)",
+    "translation": "aquele/aquela/aquilo",
+    "category": "Pronomes Demonstrativos"
+  },
+  {
+    "word": "these",
+    "definition": "demonstrative pronoun for near objects (plural)",
+    "translation": "estes/estas",
+    "category": "Pronomes Demonstrativos"
+  },
+  {
+    "word": "those",
+    "definition": "demonstrative pronoun for distant objects (plural)",
+    "translation": "aqueles/aquelas",
+    "category": "Pronomes Demonstrativos"
+  },
+  {
+    "word": "one",
+    "definition": "the number 1",
+    "translation": "um",
+    "category": "Números"
+  },
+  {
+    "word": "two",
+    "definition": "the number 2",
+    "translation": "dois",
+    "category": "Números"
+  },
+  {
+    "word": "three",
+    "definition": "the number 3",
+    "translation": "três",
+    "category": "Números"
+  },
+  {
+    "word": "four",
+    "definition": "the number 4",
+    "translation": "quatro",
+    "category": "Números"
+  },
+  {
+    "word": "five",
+    "definition": "the number 5",
+    "translation": "cinco",
+    "category": "Números"
+  },
+  {
+    "word": "ten",
+    "definition": "the number 10",
+    "translation": "dez",
+    "category": "Números"
+  },
+  {
+    "word": "twenty",
+    "definition": "the number 20",
+    "translation": "vinte",
+    "category": "Números"
+  },
+  {
+    "word": "hundred",
+    "definition": "the number 100",
+    "translation": "cem",
+    "category": "Números"
+  },
+  {
+    "word": "good",
+    "definition": "having positive qualities",
+    "translation": "bom",
+    "category": "Adjetivos"
+  },
+  {
+    "word": "bad",
+    "definition": "having negative qualities",
+    "translation": "ruim",
+    "category": "Adjetivos"
+  },
+  {
+    "word": "big",
+    "definition": "of large size",
+    "translation": "grande",
+    "category": "Adjetivos"
+  },
+  {
+    "word": "small",
+    "definition": "of little size",
+    "translation": "pequeno",
+    "category": "Adjetivos"
+  },
+  {
+    "word": "new",
+    "definition": "recently created or discovered",
+    "translation": "novo",
+    "category": "Adjetivos"
+  },
+  {
+    "word": "old",
+    "definition": "having existed for a long time",
+    "translation": "velho",
+    "category": "Adjetivos"
+  },
+  {
+    "word": "beautiful",
+    "definition": "pleasing to look at",
+    "translation": "bonito/belo",
+    "category": "Adjetivos"
+  },
+  {
+    "word": "ugly",
+    "definition": "unpleasant to look at",
+    "translation": "feio",
+    "category": "Adjetivos"
+  },
+  {
+    "word": "now",
+    "definition": "at the present time",
+    "translation": "agora",
+    "category": "Advérbios de Tempo"
+  },
+  {
+    "word": "today",
+    "definition": "on this day",
+    "translation": "hoje",
+    "category": "Advérbios de Tempo"
+  },
+  {
+    "word": "yesterday",
+    "definition": "on the day before today",
+    "translation": "ontem",
+    "category": "Advérbios de Tempo"
+  },
+  {
+    "word": "tomorrow",
+    "definition": "on the day after today",
+    "translation": "amanhã",
+    "category": "Advérbios de Tempo"
+  },
+  {
+    "word": "soon",
+    "definition": "in a short time",
+    "translation": "em breve",
+    "category": "Advérbios de Tempo"
+  },
+  {
+    "word": "later",
+    "definition": "at a time after now",
+    "translation": "mais tarde",
+    "category": "Advérbios de Tempo"
+  },
+  {
+    "word": "always",
+    "definition": "at all times",
+    "translation": "sempre",
+    "category": "Advérbios de Frequência"
+  },
+  {
+    "word": "never",
+    "definition": "at no time",
+    "translation": "nunca",
+    "category": "Advérbios de Frequência"
+  },
+  {
+    "word": "sometimes",
+    "definition": "occasionally",
+    "translation": "às vezes",
+    "category": "Advérbios de Frequência"
+  },
+  {
+    "word": "often",
+    "definition": "frequently",
+    "translation": "frequentemente",
+    "category": "Advérbios de Frequência"
+  },
+  {
+    "word": "usually",
+    "definition": "in most cases",
+    "translation": "geralmente",
+    "category": "Advérbios de Frequência"
+  },
+  {
+    "word": "here",
+    "definition": "in this place",
+    "translation": "aqui",
+    "category": "Advérbios de Lugar"
+  },
+  {
+    "word": "there",
+    "definition": "in that place",
+    "translation": "lá",
+    "category": "Advérbios de Lugar"
+  },
+  {
+    "word": "everywhere",
+    "definition": "in all places",
+    "translation": "em todo lugar",
+    "category": "Advérbios de Lugar"
+  },
+  {
+    "word": "nowhere",
+    "definition": "not in any place",
+    "translation": "em lugar nenhum",
+    "category": "Advérbios de Lugar"
+  },
+  {
+    "word": "house",
+    "definition": "a building for human habitation",
+    "translation": "casa",
+    "category": "Substantivos"
+  },
+  {
+    "word": "car",
+    "definition": "a motor vehicle",
+    "translation": "carro",
+    "category": "Substantivos"
+  },
+  {
+    "word": "book",
+    "definition": "a written or printed work",
+    "translation": "livro",
+    "category": "Substantivos"
+  },
+  {
+    "word": "school",
+    "definition": "an institution for education",
+    "translation": "escola",
+    "category": "Substantivos"
+  },
+  {
+    "word": "water",
+    "definition": "clear liquid essential for life",
+    "translation": "água",
+    "category": "Substantivos"
+  },
+  {
+    "word": "be",
+    "definition": "to exist; to have a particular quality",
+    "translation": "ser; estar",
+    "category": "Verbos Essenciais"
+  },
+  {
+    "word": "have",
+    "definition": "to own or possess something",
+    "translation": "ter; possuir",
+    "category": "Verbos Essenciais"
+  },
+  {
+    "word": "do",
+    "definition": "to perform an action or task",
+    "translation": "fazer",
+    "category": "Verbos Essenciais"
+  },
+  {
+    "word": "get",
+    "definition": "to receive or obtain something",
+    "translation": "obter; conseguir",
+    "category": "Verbos Essenciais"
+  },
+  {
+    "word": "make",
+    "definition": "to create or produce something",
+    "translation": "fazer; criar",
+    "category": "Verbos Essenciais"
+  },
+  {
+    "word": "go",
+    "definition": "to move from one place to another",
+    "translation": "ir",
+    "category": "Verbos de Movimento"
+  },
+  {
+    "word": "come",
+    "definition": "to move toward or arrive at a place",
+    "translation": "vir",
+    "category": "Verbos de Movimento"
+  },
+  {
+    "word": "run",
+    "definition": "to move quickly on foot",
+    "translation": "correr",
+    "category": "Verbos de Movimento"
+  },
+  {
+    "word": "walk",
+    "definition": "to move on foot at a regular pace",
+    "translation": "caminhar",
+    "category": "Verbos de Movimento"
+  },
+  {
+    "word": "jump",
+    "definition": "to push oneself off the ground",
+    "translation": "pular",
+    "category": "Verbos de Movimento"
+  },
+  {
+    "word": "say",
+    "definition": "to speak or express in words",
+    "translation": "dizer",
+    "category": "Verbos de Comunicação"
+  },
+  {
+    "word": "tell",
+    "definition": "to communicate information or a story",
+    "translation": "contar; dizer",
+    "category": "Verbos de Comunicação"
+  },
+  {
+    "word": "speak",
+    "definition": "to talk or communicate verbally",
+    "translation": "falar",
+    "category": "Verbos de Comunicação"
+  },
+  {
+    "word": "talk",
+    "definition": "to communicate by speaking",
+    "translation": "conversar",
+    "category": "Verbos de Comunicação"
+  },
+  {
+    "word": "ask",
+    "definition": "to request information or help",
+    "translation": "perguntar; pedir",
+    "category": "Verbos de Comunicação"
+  },
+  {
+    "word": "in",
+    "definition": "indicates position within something",
+    "translation": "em; dentro de",
+    "category": "Preposições"
+  },
+  {
+    "word": "on",
+    "definition": "indicates position on a surface",
+    "translation": "em cima; sobre",
+    "category": "Preposições"
+  },
+  {
+    "word": "at",
+    "definition": "indicates specific time or place",
+    "translation": "em (local ou tempo)",
+    "category": "Preposições"
+  },
+  {
+    "word": "to",
+    "definition": "indicates direction or purpose",
+    "translation": "para; a",
+    "category": "Preposições"
+  },
+  {
+    "word": "from",
+    "definition": "indicates origin or starting point",
+    "translation": "de; a partir de",
+    "category": "Preposições"
+  },
+  {
+    "word": "and",
+    "definition": "used to connect words or phrases",
+    "translation": "e",
+    "category": "Conjunções"
+  },
+  {
+    "word": "but",
+    "definition": "used to show contrast",
+    "translation": "mas",
+    "category": "Conjunções"
+  },
+  {
+    "word": "or",
+    "definition": "used to indicate an alternative",
+    "translation": "ou",
+    "category": "Conjunções"
+  },
+  {
+    "word": "because",
+    "definition": "used to explain reasons",
+    "translation": "porque",
+    "category": "Conjunções"
+  },
+  {
+    "word": "if",
+    "definition": "used to express a condition",
+    "translation": "se",
+    "category": "Conjunções"
+  },
+  {
+    "word": "a",
+    "definition": "indefinite article used before singular nouns",
+    "translation": "um/uma",
+    "category": "Artigos"
+  },
+  {
+    "word": "an",
+    "definition": "indefinite article used before vowel sounds",
+    "translation": "um/uma",
+    "category": "Artigos"
+  },
+  {
+    "word": "the",
+    "definition": "definite article used before specific nouns",
+    "translation": "o/a/os/as",
+    "category": "Artigos"
+  },
+  {
+    "word": "father",
+    "definition": "male parent",
+    "translation": "pai",
+    "category": "Família"
+  },
+  {
+    "word": "mother",
+    "definition": "female parent",
+    "translation": "mãe",
+    "category": "Família"
+  },
+  {
+    "word": "brother",
+    "definition": "male sibling",
+    "translation": "irmão",
+    "category": "Família"
+  },
+  {
+    "word": "sister",
+    "definition": "female sibling",
+    "translation": "irmã",
+    "category": "Família"
+  },
+  {
+    "word": "son",
+    "definition": "male child",
+    "translation": "filho",
+    "category": "Família"
+  },
+  {
+    "word": "daughter",
+    "definition": "female child",
+    "translation": "filha",
+    "category": "Família"
+  },
+  {
+    "word": "red",
+    "definition": "the color of blood",
+    "translation": "vermelho",
+    "category": "Cores"
+  },
+  {
+    "word": "blue",
+    "definition": "the color of the sky",
+    "translation": "azul",
+    "category": "Cores"
+  },
+  {
+    "word": "green",
+    "definition": "the color of grass",
+    "translation": "verde",
+    "category": "Cores"
+  },
+  {
+    "word": "yellow",
+    "definition": "the color of the sun",
+    "translation": "amarelo",
+    "category": "Cores"
+  },
+  {
+    "word": "black",
+    "definition": "the darkest color",
+    "translation": "preto",
+    "category": "Cores"
+  },
+  {
+    "word": "white",
+    "definition": "the lightest color",
+    "translation": "branco",
+    "category": "Cores"
+  },
+  {
+    "word": "food",
+    "definition": "substances consumed for nutrition",
+    "translation": "comida",
+    "category": "Comida"
+  },
+  {
+    "word": "bread",
+    "definition": "baked food made from flour and water",
+    "translation": "pão",
+    "category": "Comida"
+  },
+  {
+    "word": "meat",
+    "definition": "animal flesh used as food",
+    "translation": "carne",
+    "category": "Comida"
+  },
+  {
+    "word": "fruit",
+    "definition": "sweet plant product",
+    "translation": "fruta",
+    "category": "Comida"
+  },
+  {
+    "word": "vegetable",
+    "definition": "plant used as food",
+    "translation": "vegetal",
+    "category": "Comida"
+  },
+  {
+    "word": "sunny",
+    "definition": "bright with sunlight",
+    "translation": "ensolarado",
+    "category": "Tempo"
+  },
+  {
+    "word": "rainy",
+    "definition": "characterized by rain",
+    "translation": "chuvoso",
+    "category": "Tempo"
+  },
+  {
+    "word": "cloudy",
+    "definition": "covered with clouds",
+    "translation": "nublado",
+    "category": "Tempo"
+  },
+  {
+    "word": "windy",
+    "definition": "characterized by wind",
+    "translation": "ventoso",
+    "category": "Tempo"
+  },
+  {
+    "word": "happy",
+    "definition": "feeling joy or pleasure",
+    "translation": "feliz",
+    "category": "Emoções"
+  },
+  {
+    "word": "sad",
+    "definition": "feeling sorrow or unhappiness",
+    "translation": "triste",
+    "category": "Emoções"
+  },
+  {
+    "word": "angry",
+    "definition": "feeling strong displeasure",
+    "translation": "bravo",
+    "category": "Emoções"
+  },
+  {
+    "word": "excited",
+    "definition": "feeling enthusiastic and eager",
+    "translation": "animado",
+    "category": "Emoções"
+  },
+  {
+    "word": "scared",
+    "definition": "feeling fear or anxiety",
+    "translation": "assustado",
+    "category": "Emoções"
+  }
+]

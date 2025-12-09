@@ -1,0 +1,11 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512">
+  <defs>
+    <linearGradient id="g" x1="0" x2="1" y1="0" y2="1">
+      <stop offset="0" stop-color="#5b8cff"/>
+      <stop offset="1" stop-color="#7aa2ff"/>
+    </linearGradient>
+  </defs>
+  <rect x="56" y="56" width="400" height="400" rx="48" fill="#161d34" stroke="#2a355a" stroke-width="8"/>
+  <rect x="96" y="136" width="320" height="240" rx="24" fill="url(#g)"/>
+  <text x="256" y="268" font-family="Segoe UI, Roboto, system-ui" font-size="92" text-anchor="middle" fill="white" font-weight="700">FC</text>
+</svg>
