@@ -188,20 +188,16 @@ class FlashcardApp {
   }
 
   updateCategoryOptionsWithTranslations() {
-    const categorySelector = document.getElementById("category-selector");
+    const categorySelector = document.getElementById("category-select");
     if (!categorySelector) return;
 
     // Salvar categoria atual
     const currentCategory = categorySelector.value;
 
-    // Limpar opções existentes
-    categorySelector.innerHTML = "";
-
-    // Adicionar opção "Todas"
-    const allOption = document.createElement("option");
-    allOption.value = "all";
-    allOption.textContent = this.t("interface.allCategories");
-    categorySelector.appendChild(allOption);
+    // Limpar e adicionar opção "Todas"
+    categorySelector.innerHTML = `<option value="all">${this.t(
+      "interface.allCategories"
+    )}</option>`;
 
     // Obter categorias únicas
     const categories = [
@@ -209,11 +205,6 @@ class FlashcardApp {
         this.allFlashcards.map((card) => card.category).filter(Boolean)
       ),
     ];
-
-    // Adicionar opções de categoria com traduções
-    categorySelector.innerHTML = `<option value="all">${this.t(
-      "interface.allCategories"
-    )}</option>`;
 
     categories.forEach((category) => {
       const option = document.createElement("option");
@@ -425,18 +416,16 @@ class FlashcardApp {
   updateCategoryInfo() {
     const categoryInfo = document.getElementById("category-info");
     if (categoryInfo && this.flashcards.length > 0) {
-      const category =
-        this.currentCategory === "all"
-          ? this.t("interface.allCategories")
-          : this.getLocalizedCategory(
-              this.currentCategory,
-              this.currentCategory
-            );
-      const icon =
-        this.currentCategory === "all"
-          ? "📚"
-          : this.getCategoryIcon(this.currentCategory);
-      categoryInfo.innerHTML = `${icon} ${category}`;
+      if (this.currentCategory === "all") {
+        categoryInfo.textContent = this.t("interface.allCategories");
+      } else {
+        const icon = this.getCategoryIcon(this.currentCategory);
+        const category = this.getLocalizedCategory(
+          this.currentCategory,
+          this.currentCategory
+        );
+        categoryInfo.textContent = `${icon} ${category}`;
+      }
 
       // Atualizar contador de palavras
       const categoryCount = document.getElementById("category-count");
@@ -762,22 +751,18 @@ class FlashcardApp {
     const languageOptions = [
       {
         value: "english",
-        flag: "🇺🇸",
         text: this.t("languages.englishToPortuguese"),
       },
       {
         value: "indonesian",
-        flag: "🇮🇩",
         text: this.t("languages.indonesianToPortuguese"),
       },
       {
         value: "portuguese-to-english",
-        flag: "🇧🇷",
         text: this.t("languages.portugueseToEnglish"),
       },
       {
         value: "portuguese-to-indonesian",
-        flag: "🇧🇷",
         text: this.t("languages.portugueseToIndonesian"),
       },
     ];
@@ -785,7 +770,7 @@ class FlashcardApp {
     languageOptions.forEach((option) => {
       const optionElement = document.createElement("option");
       optionElement.value = option.value;
-      optionElement.textContent = `${option.flag} ${option.text}`;
+      optionElement.textContent = option.text;
       languageSelector.appendChild(optionElement);
     });
 
