@@ -99,6 +99,7 @@ class FlashcardApp {
         this.loadCategoryTranslations().then(() => {
           this.initializeElements();
           this.bindEvents();
+          this.setupInstallPrompt();
           this.loadFlashcards();
           this.updateUI();
         });
@@ -314,6 +315,9 @@ class FlashcardApp {
       studiedCards: document.getElementById("studied-cards"),
       categoryProgress: document.getElementById("category-progress"),
       difficultyButtons: document.querySelectorAll(".difficulty-btn"),
+      installBanner: document.getElementById("install-banner"),
+      installText: document.getElementById("install-text"),
+      installButton: document.getElementById("install-button"),
     };
   }
 
@@ -376,6 +380,37 @@ class FlashcardApp {
         e.preventDefault();
         this.nextCard();
       }
+    });
+
+    window.addEventListener("appinstalled", () => {
+      this.elements.installBanner && (this.elements.installBanner.style.display = "none");
+      this.deferredInstallPrompt = null;
+    });
+  }
+
+  setupInstallPrompt() {
+    const isIos = /iphone|ipad|ipod/i.test(navigator.userAgent);
+    const isStandalone = window.matchMedia && window.matchMedia("(display-mode: standalone)").matches || navigator.standalone;
+    if (isIos && !isStandalone && this.elements.installBanner && this.elements.installText) {
+      this.elements.installText.textContent = "Para adicionar no iPhone: toque em Compartilhar e escolha 'Adicionar à Tela de Início'.";
+      this.elements.installButton && (this.elements.installButton.style.display = "none");
+      this.elements.installBanner.style.display = "flex";
+    }
+    window.addEventListener("beforeinstallprompt", (e) => {
+      e.preventDefault();
+      this.deferredInstallPrompt = e;
+      if (this.elements.installBanner && this.elements.installText && this.elements.installButton) {
+        this.elements.installText.textContent = "Instale o app no seu dispositivo.";
+        this.elements.installButton.style.display = "inline-flex";
+        this.elements.installBanner.style.display = "flex";
+      }
+    });
+    this.elements.installButton?.addEventListener("click", async () => {
+      if (!this.deferredInstallPrompt) return;
+      this.deferredInstallPrompt.prompt();
+      await this.deferredInstallPrompt.userChoice;
+      this.deferredInstallPrompt = null;
+      this.elements.installBanner && (this.elements.installBanner.style.display = "none");
     });
   }
 
@@ -1048,3 +1083,4 @@ document.addEventListener("DOMContentLoaded", () => {
 window.addEventListener("beforeunload", () => {
   // Salvar estado atual se necessário
 });
+    this.deferredInstallPrompt = null;
