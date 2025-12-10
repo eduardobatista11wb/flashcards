@@ -13,6 +13,73 @@ class FlashcardApp {
     this.currentUILanguage = localStorage.getItem("uiLanguage") || "pt";
     this.translations = {};
 
+    this.fallbackTranslations = {
+      app: {
+        title: "Flashcards",
+        subtitle: "Aprenda Idiomas",
+        loading: "Carregando...",
+        wait: "Aguarde...",
+      },
+      interface: {
+        language: "Idioma:",
+        category: "Categoria:",
+        allCategories: "📚 Todas as Categorias",
+        words: "palavras",
+        clickToTranslate: "Clique para ver a tradução",
+        showWordAgain: "Ver palavra novamente",
+        previous: "Anterior",
+        next: "Próxima",
+        shuffle: "Embaralhar",
+        shuffled: "Embaralhado!",
+        translation: "Tradução",
+      },
+      languages: {
+        englishToPortuguese: "🇺🇸 Inglês → Português",
+        indonesianToPortuguese: "🇮🇩 Bahasa Indonesia → Português",
+        portugueseToEnglish: "🇧🇷 Português → Inglês",
+        portugueseToIndonesian: "🇧🇷 Português → Bahasa Indonesia",
+      },
+      categories: {
+        personalPronouns: "👤 Pronomes Pessoais",
+        possessivePronouns: "🤝 Pronomes Possessivos",
+        demonstrativePronouns: "👉 Pronomes Demonstrativos",
+        numbers: "🔢 Números",
+        adjectives: "🎨 Adjetivos",
+        timeAdverbs: "⏰ Advérbios de Tempo",
+        frequencyAdverbs: "🔄 Advérbios de Frequência",
+        placeAdverbs: "📍 Advérbios de Lugar",
+        nouns: "📦 Substantivos",
+        essentialVerbs: "⚡ Verbos Essenciais",
+        movementVerbs: "🏃 Verbos de Movimento",
+        communicationVerbs: "💬 Verbos de Comunicação",
+        prepositions: "🔗 Preposições",
+        conjunctions: "🔀 Conjunções",
+        articles: "📝 Artigos",
+        family: "👨‍👩‍👧‍👦 Família",
+        colors: "🌈 Cores",
+        food: "🍽️ Comida",
+        weather: "🌤️ Tempo/Clima",
+        emotions: "😊 Emoções",
+      },
+      stats: {
+        totalCards: "Total de Cards",
+        studied: "Estudados",
+        categoryProgress: "Progresso da Categoria",
+      },
+      feedback: {
+        title: "Suas Anotações",
+        placeholder: "Faça suas anotações sobre esta palavra...",
+      },
+      footer: {
+        developedFor: "Desenvolvido para aprendizado de idiomas",
+        verbConjugator: "Conjugador de Verbos",
+      },
+      errors: {
+        loadingError: "Erro ao carregar os flashcards",
+        noCards: "Nenhum card encontrado para esta categoria",
+      },
+    };
+
     // Sistema de definições localizadas
     this.definitions = {
       pt: {},
@@ -55,16 +122,24 @@ class FlashcardApp {
   t(key) {
     const keys = key.split(".");
     let value = this.translations;
-
     for (const k of keys) {
       if (value && typeof value === "object" && k in value) {
         value = value[k];
       } else {
+        value = undefined;
+        break;
+      }
+    }
+    if (value !== undefined) return value;
+    let fallback = this.fallbackTranslations;
+    for (const k of keys) {
+      if (fallback && typeof fallback === "object" && k in fallback) {
+        fallback = fallback[k];
+      } else {
         return key;
       }
     }
-
-    return value;
+    return fallback;
   }
 
   // Carregar definições localizadas
@@ -209,7 +284,9 @@ class FlashcardApp {
     categories.forEach((category) => {
       const option = document.createElement("option");
       option.value = category;
-      option.textContent = this.getLocalizedCategory(category, category);
+      option.textContent = `${this.getCategoryIcon(
+        category
+      )} ${this.getLocalizedCategory(category, category)}`;
       categorySelector.appendChild(option);
     });
 
@@ -302,6 +379,119 @@ class FlashcardApp {
     });
   }
 
+  getFallbackFlashcards(language) {
+    const base = [
+      {
+        word: "I",
+        translation: "Eu",
+        definition: "Pronome pessoal",
+        category: "Pronomes",
+      },
+      {
+        word: "Blue",
+        translation: "Azul",
+        definition: "Cor básica",
+        category: "Adjetivos",
+      },
+      {
+        word: "Eat",
+        translation: "Comer",
+        definition: "Ação de ingerir alimentos",
+        category: "Verbos Essenciais",
+      },
+      {
+        word: "House",
+        translation: "Casa",
+        definition: "Lugar onde moramos",
+        category: "Substantivos",
+      },
+      {
+        word: "Often",
+        translation: "Frequentemente",
+        definition: "Advérbio de frequência",
+        category: "Advérbios",
+      },
+      {
+        word: "With",
+        translation: "Com",
+        definition: "Relaciona elementos",
+        category: "Preposições",
+      },
+    ];
+    const ptToEn = [
+      {
+        word: "Eu",
+        translation: "I",
+        definition: "Personal pronoun",
+        category: "Pronomes",
+      },
+      {
+        word: "Azul",
+        translation: "Blue",
+        definition: "Basic color",
+        category: "Adjetivos",
+      },
+      {
+        word: "Comer",
+        translation: "Eat",
+        definition: "Action verb",
+        category: "Verbos Essenciais",
+      },
+    ];
+    const ptToId = [
+      {
+        word: "Eu",
+        translation: "Saya",
+        definition: "Pronome pessoal",
+        category: "Pronomes",
+      },
+      {
+        word: "Casa",
+        translation: "Rumah",
+        definition: "Lugar",
+        category: "Substantivos",
+      },
+      {
+        word: "Comer",
+        translation: "Makan",
+        definition: "Verbo de ação",
+        category: "Verbos Essenciais",
+      },
+    ];
+    const idToPt = [
+      {
+        word: "Saya",
+        translation: "Eu",
+        definition: "Pronome pessoal",
+        category: "Pronomes",
+      },
+      {
+        word: "Merah",
+        translation: "Vermelho",
+        definition: "Cor",
+        category: "Adjetivos",
+      },
+      {
+        word: "Makan",
+        translation: "Comer",
+        definition: "Verbo",
+        category: "Verbos Essenciais",
+      },
+    ];
+    switch (language) {
+      case "english":
+        return base;
+      case "indonesian":
+        return idToPt;
+      case "portuguese-to-english":
+        return ptToEn;
+      case "portuguese-to-indonesian":
+        return ptToId;
+      default:
+        return base;
+    }
+  }
+
   async loadFlashcards() {
     try {
       this.showLoading(true);
@@ -338,7 +528,11 @@ class FlashcardApp {
       this.updateCategoryOptionsWithTranslations();
     } catch (error) {
       console.error("Erro ao carregar flashcards:", error);
-      this.showError(this.t("errors.loadFailed"));
+      this.allFlashcards = this.getFallbackFlashcards(this.currentLanguage);
+      this.filterByCategory();
+      this.updateCategoryOptions();
+      this.updateCategoryOptionsWithTranslations();
+      this.showError(this.t("errors.loadingError"));
     } finally {
       this.showLoading(false);
     }
@@ -415,7 +609,7 @@ class FlashcardApp {
 
   updateCategoryInfo() {
     const categoryInfo = document.getElementById("category-info");
-    if (categoryInfo && this.flashcards.length > 0) {
+    if (categoryInfo) {
       if (this.currentCategory === "all") {
         categoryInfo.textContent = this.t("interface.allCategories");
       } else {
@@ -427,7 +621,6 @@ class FlashcardApp {
         categoryInfo.textContent = `${icon} ${category}`;
       }
 
-      // Atualizar contador de palavras
       const categoryCount = document.getElementById("category-count");
       if (categoryCount) {
         categoryCount.textContent = `${this.flashcards.length} ${this.t(
