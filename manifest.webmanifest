@@ -1,0 +1,19 @@
+{
+  "name": "Flashcards - Aprenda Idiomas",
+  "short_name": "Flashcards",
+  "description": "Aprenda idiomas com flashcards",
+  "start_url": "./",
+  "scope": "./",
+  "display": "standalone",
+  "background_color": "#1E293B",
+  "theme_color": "#1E293B",
+  "orientation": "portrait",
+  "icons": [
+    {
+      "src": "favicon.svg",
+      "sizes": "any",
+      "type": "image/svg+xml",
+      "purpose": "any maskable"
+    }
+  ]
+}
